@@ -6,7 +6,7 @@ define(['text!templates/login.html'], function(loginTemplate) {
 			"submit form": "login"
 		},
 		
-		register: function() {
+		login: function() {
 			$.post('/login', {
 				email: $('input[name=email]').val(),
 				password: $('input[name=password]').val()

@@ -1,5 +1,5 @@
 define(['views/index', 'views/register', 'views/login', 'views/forgotpassword'],
-	function(IdexView, RegisterView, LoginView, ForgotPasswordView) {
+	function(IndexView, RegisterView, LoginView, ForgotPasswordView) {
 		var SocialRouter = Backbone.Router.extend({
 			currentView: null,
 				
