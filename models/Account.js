@@ -99,7 +99,7 @@ module.exports = function (config, mongoose, Status, nodemailer) {
 		});
 		user.save(registerCallback);
 		console.log('Save command was sent');
-	}
+	};
 	
 	return {
 		findById: findById,
@@ -108,5 +108,5 @@ module.exports = function (config, mongoose, Status, nodemailer) {
 		changePassword: changePassword,
 		login: login,
 		Account: Account
-	}
+	};
 };
